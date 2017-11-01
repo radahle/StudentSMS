@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="word_array">
+            <item>Mandag</item>
+            <item>Tirsdag</item>
+            <item>Onsdag</item>
+            <item>Torsdag</item>
+            <item>Fredag</item>
+            <item>Lørdag</item>
+            <item>Søndag</item>
+        </string-array>
+</resources>

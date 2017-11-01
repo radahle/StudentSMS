@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:elevation="10dp"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/studentImage"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/studentImage"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/studentPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/studentImage"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintLeft_toRightOf="@+id/studentImage"
+        android:layout_marginLeft="8dp" />
+
+    <ImageView
+        android:id="@+id/studentImage"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

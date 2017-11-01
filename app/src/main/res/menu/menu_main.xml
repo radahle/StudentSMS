@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/create_message"
+        android:icon="@drawable/ic_message_black_48dp"
+        app:showAsAction="always"
+        android:title="Compose">
+    </item>
+    <item
+        android:id="@+id/addStudent"
+        android:icon="@drawable/ic_person_add_black_48dp"
+        app:showAsAction="always"
+        android:title="Profile">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_48dp"
+        app:showAsAction="always"
+        android:title="Innstillinger">
+    </item>
+    <item
+        android:id="@+id/lagreStudent"
+        app:showAsAction="always"
+        android:title="Lagre">
+    </item>
+    <item
+        android:id="@+id/redigerStudent"
+        app:showAsAction="always"
+        android:title="Lagre">
+    </item>
+    <item
+        android:id="@+id/lagreMelding"
+        app:showAsAction="always"
+        android:title="Lagre">
+    </item>
+</menu>
+
